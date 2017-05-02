@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Eagle+Lake');
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+
+img {
+        margin-left: 200px;
+        margin-top: 30px;
+        border: 10px outset pink;
+}
+
+.comment {
+    font-size: 25px;
+    margin-top: 110px;
+    margin-left: 230px;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.about {
+    margin-left:600px;
+    text-align: center;
+    width: 600px;
+    line-height: 30px;
+    border: 4px dashed pink;
+}
+
+.font {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+}
