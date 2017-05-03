@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+.table_japan {
+    border: 3px inset gray;
+    border-collapse: collapse;
+    background-color: #FFC0CB;
+    width: 70%;
+    margin-left: 350px;
+}
+
+.table_guam {
+    border: 3px inset gray;
+    border-collapse: collapse;
+    background-color: #96C7ED;
+    width: 70%;
+    margin-left: 350px;
+}
+
+th, td {
+    padding: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.text {
+    margin-left: 60px;
+    font-size: 60px;
+    font-family: 'Oleo Script', cursive;
+
+}
+ 
+.flag {
+    margin-top: 110px;
+    margin-left: -140px;
+}
+
+.plan {
+    margin-left: 30px;
+    margin-top: 180px;
+    font-size: 40px;
+    font-family: 'Hanna', sans-serif;
+}
+
+.tokyo {
+    margin-left: 10px;
+    margin-bottom: -70px;
+    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.osaka {
+    margin-top: 70px;
+    margin-left: 700px;
+    margin-bottom: -60px;
+    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.guam {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+.food {
+    margin-left: 30px;
+    margin-top: 450px;
+    font-size: 40px;
+    font-family: 'Hanna', sans-serif;
+}
+
+.photo {
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -50px;
+    margin-bottom: 300px;
+}
+
+.memory {
+    margin-left: 30px;
+    margin-top: 200px;
+    font-size: 40px;
+    font-family: 'Hanna', sans-serif;
+}
+
