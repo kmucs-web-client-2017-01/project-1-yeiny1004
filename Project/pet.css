@@ -1,5 +1,7 @@
-@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
 @import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
 
 .introduce {
     display: inline-block;
@@ -8,7 +10,7 @@
     line-height: 40px;
     color: darkgray;
     font-size: 50px;
-    font-family: 'Jeju Hallasan', cursive;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
 .blank {
