@@ -5,8 +5,10 @@
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
      <link rel="stylesheet" type="text/css" href="home.css">
      <link rel="stylesheet" type="text/css" href="travel.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
  </head>
 <body>
+     <button id = "animate2">CLICK</button>
     <div class="intro">WELCOME to YEIN world</div>
     <nav>
     <div>                                                                               
@@ -22,7 +24,7 @@
         </ul>
     </div>
     </nav>
-    <span class="text">Guam</span>
+    <span id="animate-demo2" class="text">Guam</span>
     <span class="flag"><img src="flag_guam.png" width="200px" height="140px" border="2"></span>
     <span>
     <table border="1" class="table_guam">
@@ -46,34 +48,37 @@
     </span>
     
     <div>
-        <p class="plan"> >> 여행 일정 </p>
+        <p class="plan" onMouseOver="this.style.color='red';"
+       onMouseOut="this.style.color='black';"> >> 여행 일정 </p>
 
-        <img src="guam.png" width="650px" height="200px" class="guam">
+        <img id="img3" src="guam.png" width="650px" height="200px" class="guam">
            
     </div>
     <div>
-        <p class="food"> >> #먹스타그램</p>
+        <p class="food" onMouseOver="this.style.color='red';"
+       onMouseOut="this.style.color='black';"> >> #먹스타그램</p>
     </div>
-    
+    <button id="animation-button">CLICK</button>
     
     <div>
             
-        <div class="photo"><img src="guam_food1.jpeg" width="180px" height="200px"></div>
-        <div class="photo"><img src="guam_food15.jpeg" width="180px" height="200px"></div>
-        <div class="photo"><img src="guam_food2.jpeg" width="180px" height="200px"></div>
-        <div class="photo"><img src="guam_food4.jpeg" width="180px" height="200px"></div>
-        <div class="photo"><img src="guam_food13.jpeg" width="180px" height="200px"></div>
-        <div class="photo"><img src="guam_food6.jpeg" width="180px" height="200px"></div>
-        <div class="photo"><img src="guam_food7.jpeg" width="180px" height="200px"></div>
-        <div class="photo"><img src="guam_food8.jpeg" width="180px" height="200px"></div>
-        <div class="photo"><img src="guam_food9.jpeg" width="180px" height="200px"></div>
-        <div class="photo"><img src="guam_food10.jpeg" width="180px" height="200px"></div>
-        <div class="photo"><img src="guam_food11.jpeg" width="180px" height="200px"></div>
-        <div class="photo"><img src="guam_food12.jpeg" width="180px" height="200px"></div>
+        <div id="demo1" class="photo"><img src="guam_food1.jpeg" width="180px" height="200px"></div>
+        <div id="demo2" class="photo"><img src="guam_food15.jpeg" width="180px" height="200px"></div>
+        <div id="demo3" class="photo"><img src="guam_food2.jpeg" width="180px" height="200px"></div>
+        <div id="demo4" class="photo"><img src="guam_food4.jpeg" width="180px" height="200px"></div>
+        <div id="demo5" class="photo"><img src="guam_food13.jpeg" width="180px" height="200px"></div>
+        <div id="demo6" class="photo"><img src="guam_food6.jpeg" width="180px" height="200px"></div>
+        <div id="demo7" class="photo"><img src="guam_food7.jpeg" width="180px" height="200px"></div>
+        <div id="demo8" class="photo"><img src="guam_food8.jpeg" width="180px" height="200px"></div>
+        <div id="demo9" class="photo"><img src="guam_food9.jpeg" width="180px" height="200px"></div>
+        <div id="demo10" class="photo"><img src="guam_food10.jpeg" width="180px" height="200px"></div>
+        <div id="demo11" class="photo"><img src="guam_food11.jpeg" width="180px" height="200px"></div>
+        <div id="demo12" class="photo"><img src="guam_food12.jpeg" width="180px" height="200px"></div>
     </div>
     
    <div>
-       <p class="memory"> >> MEMORIES</p>
+       <p class="memory" onMouseOver="this.style.color='red';"
+       onMouseOut="this.style.color='black';"> >> MEMORIES</p>
    </div>
         
         <div>
@@ -106,6 +111,6 @@
             
             
         </div>
-
+<script type="text/javascript" src="travel.js"></script>
     </body>
 </html>

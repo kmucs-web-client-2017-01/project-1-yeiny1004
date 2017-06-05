@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+웹 에디터에서 제이쿼리 예제가 구동이 안될시에는 파이어폭스(권장) 또는 인터넷 익스플로러를 이용해주세요.
+</title>
+<SCRIPT> 
+function zoomInAndOut(string) { 
+  var image = document.getElementById("myImage") 
+  var currentWidth = image.width; 
+  var currentHeight = image.height; 
+  if (string == "in") { 
+    var width = parseInt(currentWidth * 1.1); //10%씩 넓이 증가 
+    var height = parseInt(currentHeight * 1.1); //10%씩 높이 증가 
+  } 
+  else if (string == "out") { 
+    var width = parseInt(currentWidth * 0.9); //10%씩 넓이 감소 
+    var height = parseInt(currentHeight * 0.9); //10%씩 높이 감소 
+  } 
+  image.width = width; 
+  image.height = height; 
+} 
+</SCRIPT>
+    </head>
+
+    <body>
+<img id="myImage" src="guam_food11.jpeg" width="200" height="132" border="0"> 
+        <INPUT TYPE="button" VALUE="  +  " onmouseup="zoomInAndOut('in')"> 
+<INPUT TYPE="button" VALUE="  -  " onmouseup="zoomInAndOut('out')"> 
+
+</body>
+</html>
