@@ -2,11 +2,8 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
 
 
-img {
-        margin-left: 200px;
-        margin-top: 30px;
-        border: 10px outset #DC6089;
-}
+
+
 
 .comment {
     color: #5A5A5A;
@@ -28,3 +25,25 @@ img {
     font-family: 'Nanum Pen Script', cursive;
     font-size: 40px;
 }
+
+
+
+ .rabbit_img1 {
+    border: none;
+    cursor : pointer;
+    }
+.rabbit_img2 {
+    border: none;
+    cursor : pointer;
+    margin-left: 35%;
+    }
+.rabbit_img3 {
+    border: none;
+    cursor : pointer;
+    margin-left: 55%;
+    }
+.rabbit_img4 {
+    border: none;
+    cursor : pointer;
+    margin-left: 85%;
+    }

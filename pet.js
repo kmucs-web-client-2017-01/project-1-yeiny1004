@@ -5,3 +5,4 @@ setInterval(function(){
 $("#flip").click(function () {
     $("#panel").slideToggle(5000);
 });
+

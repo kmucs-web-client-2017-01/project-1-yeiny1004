@@ -53,3 +53,9 @@ a {
 #panel {
     display: none;
 }
+
+#flip {
+    cursor: pointer;
+}
+
+

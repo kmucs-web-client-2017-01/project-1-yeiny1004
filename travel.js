@@ -11,14 +11,16 @@ setInterval(function(){
     },900);
 
 
-$("#animate1").click(function(){
-  $("#animate-demo1").animate({backgroundColor: "#aa0000", left:"170px",opacity:"0.5"}, 2000);
-  $("#animate-demo1").animate({fontSize:"5em"}, 1000);
+
+
+$("#animation1").click(function(){
+  $("#animation_1").animate({backgroundColor: "#aa0000", left:"170px",opacity:"0.5"}, 2000);
+  $("#animation_1").animate({fontSize:"5em"}, 1000);
 });
 
-$("#animate2").click(function(){
-  $("#animate-demo2").animate({backgroundColor: "#aa0000", left:"170px",opacity:"0.5"}, 2000);
-  $("#animate-demo2").animate({fontSize:"5em"}, 1000);
+$("#animation2").click(function(){
+  $("#animation_2").animate({backgroundColor: "#aa0000", left:"170px",opacity:"0.5"}, 2000);
+  $("#animation_2").animate({fontSize:"5em"}, 1000);
 });
 
 
@@ -37,3 +39,4 @@ $("#animation-button").click(function() {
     $("#demo12").fadeToggle(12000);
 
 });
+
