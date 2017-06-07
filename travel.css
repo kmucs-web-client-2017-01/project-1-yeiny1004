@@ -92,7 +92,8 @@ th, td {
 
 .top {
     border: 5px double hotpink;
-    color:hotpink;
+    border-radius: 40%;
+    color: hotpink;
     background-color: white;
     padding: 5px;
     text-decoration: none;
